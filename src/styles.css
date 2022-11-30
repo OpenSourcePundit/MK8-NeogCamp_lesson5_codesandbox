@@ -2,6 +2,7 @@
   font-family: sans-serif;
   text-align: center;
 }
+<<<<<<< HEAD
 input {
   padding: 1rem;
   width: 280px;
@@ -11,5 +12,15 @@ h1,
 h3 {
   font-size: 1.5rem;
   margin: 2rem;
+=======
+input{
+  padding:1rem;
+  width:280px;
+  border-radius: 1rem;
+}
+h1,h3{
+  font-size:1.5rem;
+  margin: 2rem;  
+>>>>>>> 1a34b768f96b9ebd89ea2fcacdf9e22e0d6f478e
   color: green;
 }
