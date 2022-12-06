@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-import "./styles.css";
+
 
 const emojiDictionary = {
   "😀": "Grinning Face",
@@ -13,6 +12,8 @@ const emojiDictionary = {
   "😁": "Slightly Smiling Face",
   "🙃": "Upside-Down Face"
 };
+import React, { useState } from "react";
+import "./styles.css";
 var emojisWeKnow=Object.keys(emojiDictionary);//converted objects into string
 
 export default function App() {
@@ -33,7 +34,7 @@ export default function App() {
     <div className="App">
       <h1>Inside OUT !!</h1>
       <h4> Interpret EMOJIs</h4>
-      <input style={{border:"solid",margin:"auto",width:"5rem",fontSize:"2rem"}} onChange={emojiInputHandler}  />      
+      <input style={{border:"solid",margin:"auto",width:"5rem",fontSize:"2rem"}} onChange={emojiInputHandler}/>      
       <h2 style={{color:"blue"}}>{meaning}</h2>
       <h3> EMOJIs we know:</h3>
      {
@@ -46,4 +47,4 @@ export default function App() {
        <div>Ⓒopensourcepundit2022 </div>
      </footer>
     </div>
-  );
+  )
